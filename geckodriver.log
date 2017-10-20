@@ -1,0 +1,35 @@
+1508513823420	geckodriver	INFO	geckodriver 0.19.0
+1508513823426	geckodriver	INFO	Listening on 127.0.0.1:52134
+1508513825507	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile.xw7PIxO93b7A"
+1508513825709	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1508513826298	Marionette	INFO	Enabled via --marionette
+[GPU 6956] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3012] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3012] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508513829174	Marionette	INFO	Listening on port 52140
+1508513829202	Marionette	INFO	Listening on port 52140
+1508513829626	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508513829673	Marionette	DEBUG	loaded listener.js
+1508513829692	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508513830406	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508513830407	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508513830909	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.instagram.com/arpit_tiwari_312/"
+1508513830914	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.instagram.com/arpit_tiwari_312/"
+1508513830920	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.instagram.com/arpit_tiwari_312/"
+1508513831197	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.instagram.com/arpit_tiwari_312/"
+1508513831281	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/hsBwMj6iLmk.js?version=42#channel=f36a0f54dbc0e9c&origin=https%3A%2F%2Fwww.instagram.com"
+1508513831284	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/hsBwMj6iLmk.js?version=42#channel=f36a0f54dbc0e9c&origin=https%3A%2F%2Fwww.instagram.com"
+1508513831448	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.instagram.com/arpit_tiwari_312/"
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 539: TypeError: this.tablesData[table] is undefined
+[GPU 6956] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 6956] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508513833552	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1508513833554	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x920027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Child 11504] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 6956] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
